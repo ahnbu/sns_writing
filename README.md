@@ -93,7 +93,7 @@ flowchart LR
 ```mermaid
 graph TD
     Root[📁 프로젝트 루트] --> Agent[📁 .agent/skills/advanced-writing/]
-    Root --> Docs[📁 docs/]
+    Root --> Docs[📁 _docs/]
     Root --> Output[📁 output/]
     
     Agent --> Main[📄 SKILL.md<br/>메인 워크플로우]
@@ -136,7 +136,7 @@ root/
 │           │   └── step7_refiner.md
 │           └── prompts/tools/
 │               └── history_keeper.md
-├── docs/
+├── _docs/
 │   └── workflow_structure.md              # 워크플로우 상세 문서
 ├── output/
 │   └── {YYYYMMDD}_{Keyword}/
@@ -187,4 +187,4 @@ root/
 
 ## 📖 상세 문서
 
-워크플로우 구조와 다이어그램에 대한 자세한 내용은 [`docs/workflow_structure.md`](docs/workflow_structure.md)를 참고하세요.
+워크플로우 구조와 다이어그램에 대한 자세한 내용은 [`_docs/workflow_structure.md`](_docs/workflow_structure.md)를 참고하세요.

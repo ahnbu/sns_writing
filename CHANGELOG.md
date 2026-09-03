@@ -4,6 +4,7 @@
 
 | 일시 | 유형 | 범위 | 변경내용 (목적 포함) |
 |---|---|---|---|
+| 2026-09-03 20:07 | refactor | docs | docs/ 폴더를 _docs/로 이동 — 레포 간 문서 폴더명 통일 |
 | 2026-07-08 11:38 | chore | gitignore | gitignore에 .codegraph/를 추가해 CodeGraph 로컬 캐시가 작업트리에 노출되지 않도록 보완 |
 | 2026-07-08 11:37 | chore | gitignore | AI CLI 작업 산출물과 임시 파일이 추적되지 않도록 gitignore 규칙을 보강 |
 | 2026-04-04 09:56 | chore | gitignore | handoff ignore 규칙 제거 |
